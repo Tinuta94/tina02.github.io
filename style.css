@@ -1,0 +1,73 @@
+
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  #todoList {
+    padding-left: 0;
+    background-color: #f7f7f7;
+    align-items: stretch;
+    width: 50%;
+    min-width: 500px;
+    justify-content: space-around;
+    border-radius: 0.25em;
+  }
+  
+  #todoList li {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    flex: 1 2em;
+    list-style: none;
+    padding: 0.25em;
+    margin: 0.5em 1em;
+    border-radius: 0.25em;
+    background-color: #cceeff;
+  }
+  
+  #newItem {
+    flex: 1 1em;
+    
+  }
+  body {
+      background-image: url("https://cdn.pixabay.com/photo/2016/04/27/13/31/background-1356642_1280.png");
+      background-size: cover;
+      background-position: relative;
+      background-repeat: no-repeat;
+    }
+ 
+   h1 {
+       color:black;
+       font-family: 'Bubblegum Sans', cursive;
+       font-size: 60px;
+   }
+   #newItemText {
+   background-color: ;
+   background-size: 50px;
+   height: 40px;
+   width:250px;
+   font-size:20px;
+   }
+   #newItem.submit {
+       color: black;
+
+   }
+
+   ul {
+       opacity: .8;
+       font-size: 20px;
+   }
+
+   #addButton {
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    background-color: aquamarine;
+   }
+   
